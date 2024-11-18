@@ -35,3 +35,7 @@ li a.active {
     background-color: #2596be;
     font-weight: bold;
 }
+@font-face {
+    font-family: 'aviano';
+    src: url('d.woff') format('woff');
+}
