@@ -1,5 +1,37 @@
+body {
+    margin: 0; /* Remove goofy default margin */
+    padding: 0; 
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky; /*so you can scroll and it stays at the top*/
+    top: 0;
+    z-index: 1000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* apparnently this is way easier than the manual way i tried to do*/
+li a.active {
+    background-color: #2596be;
+    font-weight: bold;
 }
