@@ -39,3 +39,18 @@ li a.active {
     font-family: 'aviano';
     src: url('d.woff') format('woff');
 }
+.blog_ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: initial;
+    overflow: visible;
+    background-color: transparent;
+    position: static;
+    top: auto;
+    z-index: auto;
+    text-align: center;
+}
+ul.blog_ul li{
+    float: none;
+    display: inline-block;
+}
